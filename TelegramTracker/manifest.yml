@@ -1,0 +1,10 @@
+applications:
+- name: DonationTracker
+  no-route: true
+  instances: 1
+  memory: 64M
+  health-check-type: none
+  command: python tracker.py
+  disk quota: 64M
+  path: .
+
