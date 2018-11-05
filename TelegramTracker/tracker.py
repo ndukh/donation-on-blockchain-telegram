@@ -12,7 +12,7 @@ config.read('config.ini', 'utf-8')
 
 BOT_TOKEN = config.get('bot', 'BOT_TOKEN')
 
-LOGGING_URL = config.get('logging', 'URL')
+LOGGING_URL = config.get('logging', 'SERVER')
 LOGGING_PORT = int(config.get('logging', 'PORT'))
 
 START_TEXT = config.get('text', 'START_TEXT')
