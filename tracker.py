@@ -4,8 +4,9 @@
 import configparser
 
 import base58
-from static import get, MyLogger
 from telegram.ext import CommandHandler, MessageHandler, Filters, Updater
+
+from static import get, MyLogger
 
 config = configparser.ConfigParser()
 config.read('config.ini', 'utf-8')
