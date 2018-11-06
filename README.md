@@ -9,5 +9,3 @@ It is almost ready for deploying on IBM Bluemix CF (Python buildpack). Before de
 - rename `config_example.ini` to `config.ini`;
 - rename app in `manifest.yml`;
 - *probably* make some other changes in [`manifest.yml`](https://docs.cloudfoundry.org/devguide/deploy-apps/manifest.html).
-
-branches
