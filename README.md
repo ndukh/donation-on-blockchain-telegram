@@ -1,7 +1,6 @@
 # TelegramTracker
 ###  The module shows the direct functionality of the product.
-Telegram-bot interface which allows to check by a donation ID how the donation was spent.
-t.me/MasterchainCharityBot
+[Telegram-bot](t.me/MasterchainCharityBot) interface which allows to check by a donation ID how the donation was spent.
 
 It uses the [donation-on-blockhain-api](https://github.com/AplusD/dontation-on-blockchain-api)
 
